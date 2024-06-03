@@ -1,0 +1,44 @@
+
+* {
+  background-color: antiquewhite;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.menu li {
+  margin-right: 20px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #333;
+}
+.banner-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-info img {
+  border-radius: 50%;
+  width: 10%;
+}
+main {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr;
+  
+}
+main .info {
+  text-align: right;
+  color: #333;
+}
+.menu img {
+  width: 80px;
+}
+main .info-2 {
+  text-align: left;
+  margin-left: 20px;
+  color: #333;
+}
+
